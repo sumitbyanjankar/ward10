@@ -1,0 +1,1 @@
+  export default function greetings {props:{text:string }}

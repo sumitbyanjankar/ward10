@@ -1,0 +1,29 @@
+.ward-card{
+border:1px outset red;
+background-color: lightblue;
+text-align: center;
+color: black;
+}
+.appContainer {
+/* max-width: 800px; */
+margin: 0 auto;
+/* padding: 20px; */
+background-color:white;
+color: green;
+
+}
+.appContainer {
+    /* max-width: 800px; */
+    display: flex;
+  justify-content: center; /* Horizontally centers the div */
+  align-items: center;     /* Vertically centers the div */
+  height: 100vh;   
+    margin: 0 auto;
+    /* padding: 20px; */
+    background-color: rgb(255, 255, 255);
+    color: green;
+    border-bottom: 2px dotted green; 
+    
+    
+    text-align: center; 
+}
