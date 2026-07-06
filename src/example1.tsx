@@ -9,10 +9,10 @@ export default function AnnouncementBoard() {
         if (!response.ok){
         throw new Error(`Announcements request failed with status ${response.status}`);
     }
-
+ //
     const data = await response.json();
     console.log(data);
-
+//
     setAnnouncements(data);
     return data;
   
